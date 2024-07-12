@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Myntra - Poll</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="nav-left">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjuaozpIlmQS71whjx-D9NPVEP-edSlWJatw&s"
+          />
+          <ul>
+            <li>MEN</li>
+            <li>WOMEN</li>
+            <li>KIDS</li>
+            <li>HOME & LIVING</li>
+            <li>BEAUTY</li>
+            <li class="studio">STUDIO<span>New</span></li>
+          </ul>
+        </div>
+
+        <div class="nav-right">
+          <div class="search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input
+              type="text"
+              placeholder="Search for products, brands and more"
+            />
+          </div>
+          <div>
+            <img class="profile-navbar" src="/Screenshot 2024-07-12 122707.png" >
+
+          </div>
+          <div class="poll">
+            <img class="poll-image" src="/poll.png" >
+            <p>Polls</p>
+            
+          </div>
+
+        </div>
+      </nav>
+    </header>
+
+   
+    <div class="main">
+        <div class="container">
+            <input class="radio" type="radio" name="sliderc" id="Create-poll" checked>
+            <input class="radio" type="radio" name="sliderc" id="Vote-poll">
+            <nav>
+                <label for="Create-poll" class="Create-poll">Create a New Poll!</label>
+                <label for="Vote-poll" class="Vote-poll">Vote for Others!</label>
+                <div class="sliderc"></div>
+            </nav>
+            <section>
+                <div class="content content-create">
+                    <div class="title">
+                        Create a New POLL!
+                    </div>
+                    <p>
+                        <div class="formcontent">
+                            <div class="titleform">
+                                Create Poll
+                            </div>
+                            <form action="#">
+                                <div class="Details">
+                                    <div class="question">
+                                        <div class="input-box">
+                                            <span class="details">Ask the Question</span>
+                                            <input type="text" placeholder="What would you like to ask" required>
+    
+                                        </div>
+                                    </div>
+                                    <div class="option">
+                                        <div class="input-box">
+                                            <span class="details">Option-1 Product Name</span>
+                                            <input type="text" placeholder="Enter Product's Name" required>
+    
+                                        </div>
+                                        <div class="input-box">
+                                            <span class="details">Option-1 Product URL</span>
+                                            <input type="url" placeholder="Provide Link" required>
+    
+                                        </div>
+                                        <div class="input-box">
+                                            <span class="details">Option-2 Product Image</span>
+                                            <input type="file" placeholder="Provide Link" required>
+    
+                                        </div>
+                                        <div class="input-box">
+                                            <span class="details">Option-2 Product Name</span>
+                                            <input type="text" placeholder="Enter Product's Name" required>
+    
+                                        </div>
+                                        <div class="input-box">
+                                            <span class="details">Option-2 Product URL</span>
+                                            <input type="url" placeholder="Provide Link" required>
+    
+                                        </div>
+                                        <div class="input-box">
+                                            <span class="details">Option-2 Product Image</span>
+                                            <input type="file" placeholder="Provide Link" required>
+    
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="button">
+                                    <input type="submit" value="Post">
+                                </div>
+                            </form>
+                            
+                        </div> 
+                    </p>
+                </div>
+                <div class="content content-vote">
+                    
+                    <p>
+                        <div id="slider">
+                            <input type="radio" name="slider" id="slide1" checked>
+                            <input type="radio" name="slider" id="slide2">
+                            <input type="radio" name="slider" id="slide3">
+                            <input type="radio" name="slider" id="slide4">
+                            <div id="slides">
+                               <div id="overflow">
+                                  <div class="inner">
+                                     <div class="slide slide_1">
+                                        <div class="slide-content">
+                                            <iframe name="opinionstage-widget" src="https://www.opinionstage.com/api/v2/widgets/fe75f07e-d4ae-4c13-8eac-47d744f20613/iframe" data-opinionstage-iframe="fe75f07e-d4ae-4c13-8eac-47d744f20613" width="1000" height="500" scrolling="no" style="border: none;" frameBorder="0" allow="fullscreen" webkitallowfullscreen="true" mozallowfullscreen="true" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                                           
+
+                                        </div>
+                                     </div>
+                                     <div class="slide slide_2">
+                                        <div class="slide-content">
+                                            <iframe name="opinionstage-widget" src="https://www.opinionstage.com/api/v2/widgets/eafab045-b175-4994-896d-5704531ef119/iframe" data-opinionstage-iframe="eafab045-b175-4994-896d-5704531ef119" width="900" height="400" scrolling="no" style="border: none;" frameBorder="0" allow="fullscreen" webkitallowfullscreen="true" mozallowfullscreen="true" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                                        </div>
+                                     </div>
+                                     <div class="slide slide_3">
+                                        <div class="slide-content">
+                                            <iframe name="opinionstage-widget" src="https://www.opinionstage.com/api/v2/widgets/adf34bf7-eece-4b02-bc8a-85ef566e5972/iframe" data-opinionstage-iframe="adf34bf7-eece-4b02-bc8a-85ef566e5972" width="950" height="500" scrolling="no" style="border: none;" frameBorder="0" allow="fullscreen" webkitallowfullscreen="true" mozallowfullscreen="true" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                                        </div>
+                                     </div>
+                                     
+                                  </div>
+                               </div>
+                            </div>
+                            <div id="controls">
+                               <label for="slide1"></label>
+                               <label for="slide2"></label>
+                               <label for="slide3"></label>
+                               
+                            </div>
+                            <div id="bullets">
+                               <label for="slide1"></label>
+                               <label for="slide2"></label>
+                               <label for="slide3"></label>
+                               
+                            </div>
+                         </div>
+                    </p>
+                </div>
+            </section>
+        </div>
+    </div>
+
+  </body>
+</html>
